@@ -20,7 +20,7 @@ public class base extends appium {
 		// Scenario two - Clear the tip and pass the second tip
 		driver.findElementByXPath("//android.widget.EditText[@text='Bill Amount']").clear();
 		driver.findElementByXPath("//android.widget.EditText[@text='Bill Amount']").sendKeys("150");
-		driver.findElementByXPath("org.traeg.fastip:id/calcTipButton").click();
+		driver.findElementById("org.traeg.fastip:id/calcTipButton").click();
 
 	}
 
